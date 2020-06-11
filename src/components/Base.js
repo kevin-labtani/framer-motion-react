@@ -16,7 +16,7 @@ const containerVariants = {
     },
   },
 };
-
+// no need to explicitly state initial and animate prop on the children because of propagation
 const nextVariants = {
   hidden: {
     x: "-100vw",
